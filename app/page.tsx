@@ -106,6 +106,7 @@ const HERO_TEXT = "Hi, I'm Rokiya. I build clean, modern web experiences.";
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'education' | 'experience'>('education');
   const [selectedAchievement, setSelectedAchievement] = useState<number | null>(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   // Typewriter effect state
   const [typedText, setTypedText] = useState('');
@@ -207,6 +208,29 @@ export default function Home() {
             <a href="#publications">Publications</a>
             <a href="#contact">Contact</a>
           </nav>
+          <button
+            className="nav-toggle"
+            type="button"
+            aria-expanded={isMobileMenuOpen}
+            aria-controls="mobile-nav"
+            onClick={() => setIsMobileMenuOpen((open) => !open)}
+          >
+            <span className="nav-toggle-bar" />
+            <span className="nav-toggle-bar" />
+            <span className="nav-toggle-bar" />
+          </button>
+        </div>
+        <div
+          id="mobile-nav"
+          className={`mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}
+        >
+          <a href="#home" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
+          <a href="#about" onClick={() => setIsMobileMenuOpen(false)}>About</a>
+          <a href="#skills" onClick={() => setIsMobileMenuOpen(false)}>Skills</a>
+          <a href="#achievements" onClick={() => setIsMobileMenuOpen(false)}>Achievements</a>
+          <a href="#projects" onClick={() => setIsMobileMenuOpen(false)}>Projects</a>
+          <a href="#publications" onClick={() => setIsMobileMenuOpen(false)}>Publications</a>
+          <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
         </div>
       </header>
 
