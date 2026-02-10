@@ -358,13 +358,13 @@ export default function Home() {
                   <div className="credential-item">
                     <div className="credential-date">February 2026 – Present</div>
                     <div className="credential-main">
-                      <h3>Software Development Intern</h3>
+                      <h3>Web Development Intern</h3>
                       <p className="credential-org"><span className="highlight">PrimeX Tech</span> · Uttara, Dhaka, Bangladesh</p>
                       <p className="company-desc">
-                        PrimeX Technologies is a software development company where innovation meets expertise to create cutting-edge digital solutions. They specialize in powerful business applications, streamlining operations, and turning ideas into reality through technology.
+                        PrimeX Technologies is a software and web development company where innovation meets expertise to create cutting-edge digital solutions. They specialize in powerful business applications, streamlining operations, and turning ideas into reality through technology.
                       </p>
                       <p className="company-desc">
-                        Contributing to software development using <span className="highlight">Laravel</span> while gaining practical experience with full-stack workflows and modern development practices.
+                        Contributing to web development using <span className="highlight">Laravel</span> while gaining practical experience with full-stack workflows and modern development practices.
                       </p>
                       <div className="responsibilities">
                         <h4>Key Responsibilities</h4>

@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rokiya Tanha | Developer Portfolio",
     description: "Explore my projects, skills, and experience in web and software development.",
-    url: "https://rokiyaibnetanha-portfolio.vercel.app",
+    url: "https://rokiyaibnetanha.vercel.app",
     siteName: "Rokiya Tanha Portfolio",
     images: [
       {
-        url: "/profile.jpeg",
+        url: "https://rokiyaibnetanha.vercel.app/profile.jpeg",
         width: 1200,
         height: 630,
         alt: "Rokiya Tanha Portfolio Preview",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rokiya Tanha | Developer Portfolio",
     description: "Full Stack Developer portfolio showcasing projects and skills.",
-    images: ["/profile.jpeg"],
+    images: ["https://rokiyaibnetanha.vercel.app/profile.jpeg"],
   },
 };
 
