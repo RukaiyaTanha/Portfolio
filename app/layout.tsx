@@ -13,23 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rukaiya Tanha | Developer Portfolio",
+  title: "Rokiya Tanha | Developer Portfolio",
   description:
-    "Full Stack Developer skilled in Next.js, React, TypeScript, Django, and modern web technologies.",
+    "Full Stack Developer skilled in React, Laravel, Django, and modern web technologies.",
   icons: {
     icon: "/profile.jpeg",
   },
   openGraph: {
-    title: "Rukaiya Tanha | Developer Portfolio",
-    description: "Explore my projects, skills, and experience in web development.",
+    title: "Rokiya Tanha | Developer Portfolio",
+    description: "Explore my projects, skills, and experience in web and software development.",
     url: "https://rokiyaibnetanha-portfolio.vercel.app",
-    siteName: "Rukaiya Portfolio",
+    siteName: "Rokiya Tanha Portfolio",
     images: [
       {
-        url: "https://rokiyaibnetanha-portfolio.vercel.app/profile.jpeg",
+        url: "/profile.jpeg",
         width: 1200,
         height: 630,
-        alt: "Rukaiya Tanha Portfolio Preview",
+        alt: "Rokiya Tanha Portfolio Preview",
       },
     ],
     locale: "en_US",
@@ -37,10 +37,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rukaiya Tanha | Developer Portfolio",
+    title: "Rokiya Tanha | Developer Portfolio",
     description: "Full Stack Developer portfolio showcasing projects and skills.",
-    images: ["https://rokiyaibnetanha-portfolio.vercel.app/profile.jpeg"],
+    images: ["/profile.jpeg"],
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
